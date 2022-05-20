@@ -1,0 +1,10 @@
+#!/bin/bash
+mkdir foldername
+cd foldername
+mkdir folder_1 folder_2 folder_3
+cd folder_1
+touch text_1.txt text_2.txt text_3.txt proga_1.json proga_2.json
+mkdir directory_1 directory_2 directory_3
+ls -la
+mv text_2.txt directory_2/text_2.txt
+mv text_3.txt directory_3/text_3.txt
